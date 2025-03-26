@@ -3,7 +3,7 @@ Description = Backend Service
 
 [Service]
 User=expense
-Environment=DB_HOST="db.ramu-git123"
+Environment=DB_HOST="db.172.31.23.75"
 ExecStart=/bin/node /app/index.js
 SyslogIdentifier=backend
 
